@@ -19,6 +19,15 @@
 		0E01C4AE19BE194200444B07 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E01C49619BE194200444B07 /* UIKit.framework */; };
 		0E01C4B619BE194300444B07 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0E01C4B419BE194300444B07 /* InfoPlist.strings */; };
 		0E01C4B819BE194300444B07 /* MTGcardsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E01C4B719BE194300444B07 /* MTGcardsTests.m */; };
+		0E01C4C919BE224B00444B07 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E01C4C719BE224B00444B07 /* MainViewController.m */; };
+		0E01C4CA19BE224B00444B07 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E01C4C819BE224B00444B07 /* MainViewController.xib */; };
+		0E01C4CD19BE267B00444B07 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E01C4CC19BE267B00444B07 /* TableViewController.m */; };
+		0E01C4D019BE26A400444B07 /* NavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E01C4CF19BE26A400444B07 /* NavViewController.m */; };
+		0E01C53419BE84B100444B07 /* CellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E01C53219BE84B100444B07 /* CellViewController.m */; };
+		0E01C53519BE84B100444B07 /* CellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E01C53319BE84B100444B07 /* CellViewController.xib */; };
+		0E9F3F0919C4C1A4003715F4 /* storeinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9F3F0819C4C1A4003715F4 /* storeinfo.m */; };
+		0E9F3F2919C53503003715F4 /* magic_img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3F2819C53503003715F4 /* magic_img.jpg */; };
+		0E9F3F2D19C53CA3003715F4 /* fire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0E9F3F2C19C53CA3003715F4 /* fire.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,20 @@
 		0E01C4B319BE194300444B07 /* MTGcardsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTGcardsTests-Info.plist"; sourceTree = "<group>"; };
 		0E01C4B519BE194300444B07 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0E01C4B719BE194300444B07 /* MTGcardsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTGcardsTests.m; sourceTree = "<group>"; };
+		0E01C4C619BE224B00444B07 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0E01C4C719BE224B00444B07 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		0E01C4C819BE224B00444B07 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		0E01C4CB19BE267B00444B07 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		0E01C4CC19BE267B00444B07 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		0E01C4CE19BE26A400444B07 /* NavViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavViewController.h; sourceTree = "<group>"; };
+		0E01C4CF19BE26A400444B07 /* NavViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavViewController.m; sourceTree = "<group>"; };
+		0E01C53119BE84B100444B07 /* CellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellViewController.h; sourceTree = "<group>"; };
+		0E01C53219BE84B100444B07 /* CellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellViewController.m; sourceTree = "<group>"; };
+		0E01C53319BE84B100444B07 /* CellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellViewController.xib; sourceTree = "<group>"; };
+		0E9F3F0719C4C1A4003715F4 /* storeinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = storeinfo.h; sourceTree = "<group>"; };
+		0E9F3F0819C4C1A4003715F4 /* storeinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = storeinfo.m; sourceTree = "<group>"; };
+		0E9F3F2819C53503003715F4 /* magic_img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = magic_img.jpg; sourceTree = "<group>"; };
+		0E9F3F2C19C53CA3003715F4 /* fire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fire.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +130,24 @@
 		0E01C49819BE194200444B07 /* MTGcards */ = {
 			isa = PBXGroup;
 			children = (
+				0E9F3F2C19C53CA3003715F4 /* fire.jpg */,
+				0E9F3F2819C53503003715F4 /* magic_img.jpg */,
 				0E01C4A119BE194200444B07 /* AppDelegate.h */,
 				0E01C4A219BE194200444B07 /* AppDelegate.m */,
 				0E01C4A419BE194200444B07 /* Images.xcassets */,
 				0E01C49919BE194200444B07 /* Supporting Files */,
+				0E01C4C619BE224B00444B07 /* MainViewController.h */,
+				0E01C4C719BE224B00444B07 /* MainViewController.m */,
+				0E01C4C819BE224B00444B07 /* MainViewController.xib */,
+				0E01C4CB19BE267B00444B07 /* TableViewController.h */,
+				0E01C4CC19BE267B00444B07 /* TableViewController.m */,
+				0E01C4CE19BE26A400444B07 /* NavViewController.h */,
+				0E01C4CF19BE26A400444B07 /* NavViewController.m */,
+				0E01C53119BE84B100444B07 /* CellViewController.h */,
+				0E01C53219BE84B100444B07 /* CellViewController.m */,
+				0E01C53319BE84B100444B07 /* CellViewController.xib */,
+				0E9F3F0719C4C1A4003715F4 /* storeinfo.h */,
+				0E9F3F0819C4C1A4003715F4 /* storeinfo.m */,
 			);
 			path = MTGcards;
 			sourceTree = "<group>";
@@ -220,6 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E01C49D19BE194200444B07 /* InfoPlist.strings in Resources */,
+				0E9F3F2D19C53CA3003715F4 /* fire.jpg in Resources */,
+				0E01C4CA19BE224B00444B07 /* MainViewController.xib in Resources */,
+				0E9F3F2919C53503003715F4 /* magic_img.jpg in Resources */,
+				0E01C53519BE84B100444B07 /* CellViewController.xib in Resources */,
 				0E01C4A519BE194200444B07 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,7 +281,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E01C4A319BE194200444B07 /* AppDelegate.m in Sources */,
+				0E01C4C919BE224B00444B07 /* MainViewController.m in Sources */,
+				0E01C53419BE84B100444B07 /* CellViewController.m in Sources */,
 				0E01C49F19BE194200444B07 /* main.m in Sources */,
+				0E01C4CD19BE267B00444B07 /* TableViewController.m in Sources */,
+				0E01C4D019BE26A400444B07 /* NavViewController.m in Sources */,
+				0E9F3F0919C4C1A4003715F4 /* storeinfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +335,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -327,7 +373,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
@@ -437,6 +483,7 @@
 				0E01C4BD19BE194300444B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E01C4BE19BE194300444B07 /* Build configuration list for PBXNativeTarget "MTGcardsTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +492,7 @@
 				0E01C4C019BE194300444B07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
